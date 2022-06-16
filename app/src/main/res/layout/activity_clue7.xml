@@ -17,10 +17,9 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.127" />
 
     <TextView
         android:id="@+id/textView8"
@@ -28,7 +27,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:lineSpacingExtra="8sp"
-        android:text="This sacred tree native to the Indian subcontinent is a storehouse of medicinal value and is used to treat many ailments and diseases, ranging from a simple incident like a snake bite to Asthma, skin diseases, kidney diseases, constipation, dysentery, impotency and various blood-related problems."
+        android:text="Infrastructure required to treat the Wastewater and make it safe for human and environmental contact."
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#5F675E"
@@ -38,5 +37,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.618" />
+        app:layout_constraintVertical_bias="0.397" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928"
+        app:srcCompat="@drawable/code7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -46,7 +46,7 @@
         android:layout_width="276dp"
         android:layout_height="47dp"
         android:fontFamily="@font/aldrich"
-        android:text="Find The Missing Consonants"
+        android:text="Find The Missing Letters:"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#000000"
@@ -56,4 +56,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="276dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/aldrich"
+        android:text="And It wil lead you to the next location"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="387dp"
+        android:layout_height="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:srcCompat="@drawable/code1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
