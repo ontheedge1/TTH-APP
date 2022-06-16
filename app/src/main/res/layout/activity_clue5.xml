@@ -16,23 +16,25 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.21" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/aclonica"
+        android:layout_width="391dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:lineSpacingExtra="8sp"
         android:text="I am half full or half empty.Either way I am not Entirely empty,You will find the next clue in me but on top of me."
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#2196F3"
-        android:textSize="20sp"
+        android:textColor="#FF0266"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.554" />
 </androidx.constraintlayout.widget.ConstraintLayout>
